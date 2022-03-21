@@ -1,3 +1,10 @@
+# Custom
+outcmaes/
+.pylint.d/
+logs/
+carrier_*/
+light_*/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
