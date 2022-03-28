@@ -434,13 +434,13 @@ class ModularCarrier(gym.Env, EzPickle):
 
 if __name__ == "__main__":
   from pyglet.window import key
-  import matplotlib.pyplot as plt
-  import datetime
-  import os
+  # import matplotlib.pyplot as plt
+  # import datetime
+  # import os
 
-  current_time_str = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-  video_dir = "carrier_" + current_time_str
-  os.makedirs(video_dir)
+  # current_time_str = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+  # video_dir = "carrier_" + current_time_str
+  # os.makedirs(video_dir)
   # import utils
   # body_grid = np.array([[0,0,0,0,0], [0,3,2,3,0], [0,0,0,0,0]])
   # body_grid = np.array([[2,1,2], [4,1,4], [3,3,3]])

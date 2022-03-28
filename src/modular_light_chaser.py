@@ -473,16 +473,16 @@ class ModularLightChaser(gym.Env, EzPickle):
 if __name__ == "__main__":
   from pyglet.window import key
   # import utils
-  import matplotlib.pyplot as plt
-  import datetime
-  import os
-  import matplotlib
-  matplotlib.rcParams['pdf.fonttype'] = 42
-  matplotlib.rcParams['ps.fonttype'] = 42
+  # import matplotlib.pyplot as plt
+  # import datetime
+  # import os
+  # import matplotlib
+  # matplotlib.rcParams['pdf.fonttype'] = 42
+  # matplotlib.rcParams['ps.fonttype'] = 42
 
-  current_time_str = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-  video_dir = "light_" + current_time_str
-  os.makedirs(video_dir)
+  # current_time_str = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
+  # video_dir = "light_" + current_time_str
+  # os.makedirs(video_dir)
   #body_grid = np.array([[0,0,1,0,0], [0,3,2,3,0], [0,0,0,0,0]])
   # body_grid = np.array([[2,1,2], [3,1,3], [1,2,1]])
   body_grid = np.array([[1,2,1,2,1],
